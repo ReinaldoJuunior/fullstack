@@ -1,8 +1,10 @@
 /* eslint-disable */
 import { createRouter, createWebHistory } from 'vue-router'
+
 const FeedBacker = () => import('../views/FeedBacker/index.vue')
 const Home = () => import('../views/Home/index.vue')
 const Credentials = () => import('../views/Credencials/index.vue')
+
 const routes = [
 
   {
@@ -13,7 +15,7 @@ const routes = [
 
   {
     path: '/feedbacker',
-    name: 'FeedBacker [b]',
+    name: 'FeedBacker',
     component: FeedBacker,
     meta: {
       hasAuth: true
@@ -22,7 +24,7 @@ const routes = [
 
   {
     path: '/credencials',
-    name: 'Credencials [b]',
+    name: 'Credencials',
     component: Credentials,
     meta: {
       hasAuth: true

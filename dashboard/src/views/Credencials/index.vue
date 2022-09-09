@@ -1,10 +1,7 @@
 <template>
-    <h1>Aqui e Home </h1>
+    <h1>Aqui e Credenciais </h1>
 </template>
-
 <script>
-export default{
-
+export default {
 }
-
 </script>
