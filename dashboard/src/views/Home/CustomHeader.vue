@@ -12,6 +12,7 @@
                        Crie uma conta
                     </button>
                     <button
+                    @click="()=> emit('login')"
                     class="px-6 py-2 font-bold rounded-full bg-white text-brand-main focus:outline-none"
                     >
                        Entrar
@@ -43,6 +44,9 @@
 
 <script>
 export default {
+    setup(_, {emit }){
+        return {emit}
+    }
 
 }
 </script>
