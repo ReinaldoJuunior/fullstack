@@ -1,4 +1,4 @@
-# frontend-backend-spring
+# FeedBacker Project Vue JS
 
 ## Project setup
 ```
