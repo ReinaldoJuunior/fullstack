@@ -9,13 +9,13 @@ export default function useModal() {
     }
 
     function close(payload = {}) {
-        bus.emit(EVENT.NAME, { status: false, ...payload })
+        bus.emit(EVENT_NAME, { status: false, ...payload })
     }
     function listen (fn){
-        bus.on(EVENT.NAME, fn)
+        bus.on(EVENT_NAME, fn)
     }
     function off(fn){
-        bus.off(EVENT.NAME, fn);
+        bus.off(EVENT_NAME, fn);
     }
 
     return { open, close, listen, off }

@@ -1,11 +1,11 @@
 <template>
-    <modal-factory/>
+<modal-factory/>
  <router-view />
 </template>
 
 <script>
 
-import ModalFactory from '../components/ModalFactory/index'
+import ModalFactory from './components/ModalFactory'
 
 export default {
     components: { ModalFactory }
