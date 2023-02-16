@@ -1,4 +1,4 @@
-import bus from '../router/utils/bus.js'
+import bus from '../utils/bus.js'
 
 const EVENT_NAME = 'modal:toggle'
 

@@ -11,7 +11,7 @@
               @click.stop>
 
                 <div
-                    class="flex flex-col overflow-hidden bg-white rounded-lg animate__animate animate__fadeInDown animate__faster">
+                    class="flex flex-col overflow-hidden bg-white rounded-lg animate__animated animate__fadeInDown animate__faster">
                     <div class="flex flex-col px-12 py-10 bg-white">
                         <component :is="state.component" />
                     </div>
@@ -31,7 +31,7 @@ import { defineAsyncComponent } from '@vue/runtime-core'
 const ModalLogin = defineAsyncComponent(() => import('../ModalLogin'))
 const ModalCreateAccount = defineAsyncComponent(() => import('../ModalCreateAccount'))
 
-const DEFAULT_WIDTH = 'w-3/4 lg:1/3'
+const DEFAULT_WIDTH = 'w-3/4 lg:w-1/3'
 
 
 export default {

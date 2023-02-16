@@ -14,6 +14,7 @@ import Contact from './Contact.vue'
 import { useRouter } from 'vue-router'
 import { onMounted } from '@vue/runtime-core'
 import useModal from '../../hooks/useModal'
+
 export default {
 
     components: { CustomHeader, Contact },
