@@ -1,5 +1,7 @@
 # FeedBacker Project Vue JS
 
+Aplicação na branch feedbacker_v1
+
 ## Project setup
 ```
 npm install
